@@ -12,13 +12,16 @@
     "sourceType": "module"
   },
   "rules": {
-    "prettier/prettier": {
-      "semi": true,
-      "singleQuote": true,
-      "printWidth": 100,
-      "tabWidth": 2,
-      "trailingComma": "none"
-    },
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true,
+        "singleQuote": true,
+        "printWidth": 100,
+        "tabWidth": 2,
+        "trailingComma": "none"
+      }
+    ],
     "no-console": "off",
     "prefer-template": "error",
     "@typescript-eslint/explicit-function-return-type": "off",
