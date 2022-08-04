@@ -14,7 +14,19 @@ module.exports = {
     ecmaVersion: 2020
   },
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        semi: true,
+        singleQuote: true,
+        printWidth: 100,
+        tabWidth: 2,
+        trailingComma: 'none',
+        arrowParens: 'avoid'
+      }
+    ],
     'no-console': 'off',
+    'prefer-template': 'error',
     'no-debugger': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
