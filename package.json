@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "lint": "lerna run lint",
-    "version": "lerna version"
+    "release": "lerna version"
   },
   "dependencies": {
     "eslint": "^8.28.0",
