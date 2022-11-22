@@ -9,7 +9,9 @@
     "lint": "lerna run lint",
     "release": "lerna version"
   },
+  "prettier": "@snapshot-labs/prettier-config",
   "dependencies": {
+    "@snapshot-labs/prettier-config": "^0.1.0-beta.6",
     "eslint": "^8.28.0",
     "lerna": "^6.0.3",
     "prettier": "^2.6.2",

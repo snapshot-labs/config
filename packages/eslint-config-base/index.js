@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const prettierConfig = require('../../.prettierrc');
-
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
@@ -10,7 +7,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'prettier/prettier': ['error', prettierConfig],
+    'prettier/prettier': 'error',
     'no-console': 'off',
     'prefer-template': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
