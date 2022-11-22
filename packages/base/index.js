@@ -3,7 +3,7 @@ const prettierConfig = require('../../.prettierrc');
 
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: ['plugin:@typescript-eslint/recommended'],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   plugins: ['prettier', '@typescript-eslint'],
   parserOptions: {
     ecmaVersion: 2018,
