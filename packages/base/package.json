@@ -1,0 +1,18 @@
+{
+  "name": "@snapshot-labs/eslint-config-base",
+  "version": "0.1.0-beta.6",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  }
+}
