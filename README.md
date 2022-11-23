@@ -1,18 +1,10 @@
-## `@snapshot-labs/eslint-config`
+## Snapshot Labs configs
 
-### Installation
+Set of eslint/prettier configs used in Snapshot repos.
 
-```
-yarn add @snapshot-labs/eslint-config
-```
-
-### Usage
-
-```
-{
-  "extends": "@snapshot-labs"
-}
-```
+- [`@snapshot-labs/eslint-config`](packages/eslint-config)
+- [`@snapshot-labs/eslint-config-vue`](packages/eslint-config-vue)
+- [`@snapshot-labs/prettier-config`](packages/prettier-config)
 
 ## Releasing new versions
 
