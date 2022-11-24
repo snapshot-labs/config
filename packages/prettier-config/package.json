@@ -1,6 +1,9 @@
 {
   "name": "@snapshot-labs/prettier-config",
   "version": "0.1.0-beta.6",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": {
