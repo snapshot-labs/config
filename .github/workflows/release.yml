@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
+          registry-url: 'https://registry.npmjs.org'
           cache: 'yarn'
       - run: yarn install
       - run: yarn lerna publish from-git --dist-tag beta --yes
