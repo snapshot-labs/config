@@ -15,5 +15,6 @@ module.exports = {
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/ban-ts-comment': 'off'
+    'lines-between-class-members': ['error', 'always', { 'exceptAfterSingleLine': true }]
   }
 };
