@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "lerna run lint",
+    "lint": "lerna run lint -- --fix",
+    "lint:nofix": "lerna run lint",
     "release": "lerna version"
   },
   "prettier": "@snapshot-labs/prettier-config",
