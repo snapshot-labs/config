@@ -28,7 +28,6 @@ module.exports = {
     'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
     'import/first': 'error',
     'import/newline-after-import': 'error',
-    'import/no-unassigned-import': 'error',
     'import/order': 'error',
     'import/no-unresolved': 0
   }
