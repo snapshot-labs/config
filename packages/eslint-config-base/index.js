@@ -34,12 +34,8 @@ module.exports = {
     'import/order': 'error'
   },
   settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx']
-    },
     'import/resolver': {
-      typescript: true,
-      node: true
+      typescript: true
     }
   }
 };
