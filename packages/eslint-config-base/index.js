@@ -29,6 +29,7 @@ module.exports = {
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-unassigned-import': 'error',
-    'import/order': 'error'
+    'import/order': 'error',
+    'import/no-unresolved': 0
   }
 };
