@@ -3,8 +3,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'plugin:import/recommended',
-    'plugin:import/typescript'
+    'plugin:import/recommended'
   ],
   plugins: ['prettier', '@typescript-eslint', 'import'],
   parserOptions: {
@@ -32,10 +31,5 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/no-unassigned-import': 'error',
     'import/order': 'error'
-  },
-  settings: {
-    'import/resolver': {
-      typescript: true
-    }
   }
 };
