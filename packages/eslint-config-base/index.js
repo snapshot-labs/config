@@ -26,7 +26,6 @@ module.exports = {
     'import/no-self-import': 'error',
     'import/no-useless-path-segments': 'error',
     'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
-    'import/exports-last': 'error',
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-unassigned-import': 'error',
