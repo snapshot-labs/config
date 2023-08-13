@@ -32,5 +32,11 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/no-unassigned-import': 'error',
     'import/order': 'error'
+  },
+  settings: {
+    'import/resolver': {
+      typescript: true,
+      node: true
+    }
   }
 };
