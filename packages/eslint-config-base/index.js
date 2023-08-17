@@ -23,7 +23,6 @@ module.exports = {
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'import/no-extraneous-dependencies': 'error',
     'import/no-empty-named-blocks': 'error',
-    'import/no-extraneous-dependencies': 'error',
     'import/no-self-import': 'error',
     'import/no-useless-path-segments': 'error',
     'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
