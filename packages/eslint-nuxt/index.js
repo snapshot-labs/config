@@ -31,12 +31,7 @@ module.exports = {
         'vue/define-macros-order': [
           'error',
           {
-            order: [
-              'defineOptions',
-              'defineProps',
-              'defineEmits',
-              'defineSlots'
-            ]
+            order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots']
           }
         ],
         'vue/define-props-declaration': ['error', 'type-based'],
