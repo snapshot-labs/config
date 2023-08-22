@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@nuxt/eslint-config', '@snapshot-labs/eslint-config-base'],
+  extends: ['@nuxt/eslint-config'],
   rules: {},
   overrides: [
     {
