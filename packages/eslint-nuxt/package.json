@@ -1,6 +1,6 @@
 {
   "name": "@snapshot-labs/eslint-config-nuxt",
-  "version": "0.1.0-beta.11",
+  "version": "0.1.0-beta.12",
   "publishConfig": {
     "access": "public"
   },
