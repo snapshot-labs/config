@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@snapshot-labs/eslint-config-base": "^0.1.0-beta.11",
-    "eslint-plugin-vue": "^9.7.0"
+    "eslint-plugin-vue": "^9.17.0"
   }
 }
