@@ -1,6 +1,6 @@
 {
   "name": "@snapshot-labs/eslint-config-base",
-  "version": "0.1.0-beta.13",
+  "version": "0.1.0-beta.14",
   "publishConfig": {
     "access": "public"
   },
@@ -17,7 +17,7 @@
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-prettier": "^5.0.0"
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1"
   }
 }
