@@ -37,6 +37,21 @@ module.exports = {
         groups: ['builtin', 'external', 'internal', 'type'],
         pathGroups: [
           {
+            pattern: 'vue',
+            group: 'builtin',
+            position: 'before'
+          },
+          {
+            pattern: 'vitest',
+            group: 'builtin',
+            position: 'before'
+          },
+          {
+            pattern: '@vue/**',
+            group: 'builtin',
+            position: 'before'
+          },
+          {
             pattern: '@/**',
             group: 'internal'
           }
