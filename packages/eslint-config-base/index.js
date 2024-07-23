@@ -46,7 +46,6 @@ module.exports = {
         'newlines-between': 'never',
         alphabetize: {
           order: 'asc',
-          orderImportKind: 'asc',
           caseInsensitive: true
         }
       }
