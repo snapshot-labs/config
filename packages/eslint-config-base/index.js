@@ -23,6 +23,45 @@ module.exports = {
       'always',
       { exceptAfterSingleLine: true }
     ],
-    'import/no-extraneous-dependencies': 'error'
+    'import/no-extraneous-dependencies': 'error',
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: true
+      }
+    ],
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', 'type'],
+        pathGroups: [
+          {
+            pattern: 'vue',
+            group: 'builtin',
+            position: 'before'
+          },
+          {
+            pattern: 'vitest',
+            group: 'builtin',
+            position: 'before'
+          },
+          {
+            pattern: '@vue/**',
+            group: 'builtin',
+            position: 'before'
+          },
+          {
+            pattern: '@/**',
+            group: 'internal'
+          }
+        ],
+        'newlines-between': 'never',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true
+        }
+      }
+    ]
   }
 };
