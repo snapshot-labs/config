@@ -23,6 +23,33 @@ module.exports = {
       'always',
       { exceptAfterSingleLine: true }
     ],
-    'import/no-extraneous-dependencies': 'error'
+    'import/no-extraneous-dependencies': 'error',
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
+      }
+    ],
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', 'type'],
+        pathGroups: [
+          {
+            pattern: '@/**',
+            group: 'internal'
+          }
+        ],
+        'newlines-between': 'never',
+        alphabetize: {
+          order: 'asc',
+          orderImportKind: 'asc',
+          caseInsensitive: true
+        }
+      }
+    ]
   }
 };
