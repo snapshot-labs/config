@@ -10,6 +10,11 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'import/no-duplicates': ['error', { 'prefer-inline': true }],
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      { prefer: 'no-type-imports' }
+    ],
     'prettier/prettier': 'error',
     'no-console': 'off',
     'prefer-template': 'error',

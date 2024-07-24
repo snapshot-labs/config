@@ -1,6 +1,6 @@
 {
   "name": "@snapshot-labs/eslint-config-vue",
-  "version": "0.1.0-beta.16",
+  "version": "0.1.0-beta.17",
   "publishConfig": {
     "access": "public"
   },
@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@snapshot-labs/eslint-config-base": "^0.1.0-beta.16",
+    "@snapshot-labs/eslint-config-base": "^0.1.0-beta.17",
     "eslint-plugin-vue": "^9.18.1"
   }
 }
