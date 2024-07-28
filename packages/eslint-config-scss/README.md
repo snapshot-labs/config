@@ -10,6 +10,6 @@ yarn add @snapshot-labs/eslint-config-scss
 
 ```
 {
-  "extends": "@snapshot-labs/eslint-config-scss"
+  "extends": "@snapshot-labs/scss"
 }
 ```
