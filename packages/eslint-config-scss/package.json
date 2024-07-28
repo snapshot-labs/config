@@ -1,0 +1,17 @@
+{
+  "name": "@snapshot-labs/eslint-config-scss",
+  "version": "0.1.0-beta.17",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@snapshot-labs/eslint-config-base": "^0.1.0-beta.17",
+    "stylelint": "^16.7.0",
+    "stylelint-config-standard-scss": "^13.1.0"
+  }
+}
