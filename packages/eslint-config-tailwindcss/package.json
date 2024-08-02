@@ -1,0 +1,16 @@
+{
+  "name": "@snapshot-labs/eslint-config-tailwindcss",
+  "version": "0.1.0-beta.17",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@snapshot-labs/eslint-config-vue": "^0.1.0-beta.17",
+    "eslint-plugin-tailwindcss": "^3.17.4"
+  }
+}
