@@ -4,7 +4,19 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'vue/require-default-prop': 'off',
     'vue/no-v-html': 'off',
-    'vue/custom-event-name-casing': ['error', 'camelCase']
+    'vue/custom-event-name-casing': ['error', 'camelCase'],
+    "no-restricted-imports": [
+        "error",
+        {
+          "patterns": [
+            {
+              "group": ["~icons/*"],
+              "message": "No need to import icons directly, they are auto-imported"
+            }
+          ]
+        }
+      ]
+    }
   },
   overrides: [
     {
