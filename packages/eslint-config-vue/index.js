@@ -5,18 +5,17 @@ module.exports = {
     'vue/require-default-prop': 'off',
     'vue/no-v-html': 'off',
     'vue/custom-event-name-casing': ['error', 'camelCase'],
-    "no-restricted-imports": [
-        "error",
-        {
-          "patterns": [
-            {
-              "group": ["~icons/*"],
-              "message": "No need to import icons directly, they are auto-imported"
-            }
-          ]
-        }
-      ]
-    }
+    'no-restricted-imports': [
+      'error',
+      {
+        patterns: [
+          {
+            group: ['~icons/*'],
+            message: 'No need to import icons directly, they are auto-imported'
+          }
+        ]
+      }
+    ]
   },
   overrides: [
     {
