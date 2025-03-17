@@ -1,6 +1,6 @@
 {
   "name": "@snapshot-labs/eslint-config",
-  "version": "0.1.0-beta.19",
+  "version": "0.1.0-beta.20",
   "publishConfig": {
     "access": "public"
   },
@@ -10,6 +10,6 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@snapshot-labs/eslint-config-base": "^0.1.0-beta.19"
+    "@snapshot-labs/eslint-config-base": "^0.1.0-beta.20"
   }
 }
