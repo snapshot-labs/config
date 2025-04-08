@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:vue/vue3-recommended', '@snapshot-labs/eslint-config-base'],
+  extends: ['plugin:vue/recommended', '@snapshot-labs/eslint-config-base'],
   rules: {
     'vue/multi-word-component-names': 'off',
     'vue/require-default-prop': 'off',
