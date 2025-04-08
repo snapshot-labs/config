@@ -10,6 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@nuxt/eslint-config": "^0.2.0"
+    "@nuxt/eslint-config": "^0.7.6"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.0"
   }
 }
